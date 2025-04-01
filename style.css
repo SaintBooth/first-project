@@ -1,0 +1,71 @@
+/* styles.css */
+:root {
+    --color-primary: #2563eb;
+    --color-bg: #f9fafb;
+    --color-text: #1f2937;
+    --color-muted: #6b7280;
+    --font-main: 'Segoe UI', 'Inter', sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-main);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: var(--color-primary);
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    background-color: #fff;
+    border-top: 1px solid #e5e7eb;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--color-muted);
+    margin-top: 3rem;
+  }
+  
